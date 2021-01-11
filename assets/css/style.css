@@ -6,3 +6,11 @@ h1 {
     font-size: 60px;
     font-weight: 900;
 }
+
+body {
+    background: url("../images/background-picture.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
