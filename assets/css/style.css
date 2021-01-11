@@ -92,3 +92,16 @@ td {
 .active {
     background-color: black;
 }
+
+/*--------------------------------Footer*/
+
+footer {
+   position: absolute;
+   bottom: 0;
+   font-family: 'Press Start 2P', cursive, sans-serif;
+    width: 100%;
+   
+}
+footer a {
+    color: #26cee8;
+}
