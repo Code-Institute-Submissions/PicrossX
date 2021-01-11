@@ -47,6 +47,15 @@ btn-intr:active:focus {
 	color: white;
 }
 
+.btn-bck {
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    color: black;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
 /*--------------------------------Table*/
 
 table th, td {
