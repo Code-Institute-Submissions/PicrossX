@@ -53,5 +53,42 @@ btn-intr:active:focus {
 
 /*--------------------------------Table*/
 
+table th, td {
+    font-family: "Press Start 2P", cursive, sans-serif;
+    color:black;
+    border: 2px solid rgb(43, 38, 38);
+}
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+} 
 
+th {
+    background-color: #ffc107;
+    color: black;
+}
+
+td {
+    background-color: white;
+    width: 29px;
+    height: 29px;
+
+}
+
+.nd-r {
+    width: 90px;
+
+}
+
+.st-r {
+    height: 90px;
+}
+
+.dark {
+    background-color: white;
+}
+
+.active {
+    background-color: black;
+}
