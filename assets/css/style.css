@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-h1 {
+h1,
+a,
+p
+th,
+td {
     color:#ffc107;
     font-family: "Press Start 2P", cursive, sans-serif;
     font-size: 60px;
@@ -14,6 +18,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
+/*--------------------------------Wrapper*/
 
 .wrapper {
     padding-right: 10px;
@@ -23,6 +28,8 @@ body {
     margin-top: 215px;
     height: 100%;
 }
+ 
+/*--------------------------------Buttons*/
 
 .btn-intr {
 
@@ -34,3 +41,17 @@ body {
     margin-bottom: 30px;
     width: 240px;
 }
+
+.btn-intr:hover,
+.btn-intr:active,
+.btn-intr:focus,
+btn-intr:active:focus {
+	background-color: #b58a09;
+	border-color: #b58a09;
+	color: white;
+}
+
+/*--------------------------------Table*/
+
+
+
