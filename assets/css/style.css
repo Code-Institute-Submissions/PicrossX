@@ -22,7 +22,12 @@ body {
     padding-left: 10px;
     margin-bottom: 215px;
     margin-top: 215px;
-    height: 100%;
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
  
 /*--------------------------------Buttons*/
@@ -35,7 +40,7 @@ body {
     border-color: #ffc107;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 240px;
+    width: 200px;
 }
 
 .btn-intr:hover,
