@@ -25,11 +25,6 @@ body {
 
 }
 
-.center {
-    margin-left: auto;
-    margin-right: auto;
-}
- 
 /*--------------------------------Buttons*/
 
 .btn-intr {
@@ -65,6 +60,7 @@ btn-intr:active:focus {
 
 table th, td {
     font-family: "Press Start 2P", cursive, sans-serif;
+    font-size: 13px;
     color:black;
     border: 2px solid rgb(43, 38, 38);
 }
@@ -106,10 +102,9 @@ td {
 /*--------------------------------Footer*/
 
 footer {
-   position: absolute;
-   bottom: 0;
+
    font-family: 'Press Start 2P', cursive, sans-serif;
-    width: 100%;
+
    
 }
 footer a {
