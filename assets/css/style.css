@@ -8,11 +8,12 @@ h1 {
 }
 
 body {
-    background: url("../images/background-picture.png") no-repeat center center fixed;
+    background: url("../images/background-picture.png") no-repeat center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
 }
 /*--------------------------------Wrapper*/
 
