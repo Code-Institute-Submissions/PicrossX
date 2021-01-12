@@ -1,22 +1,10 @@
-$(document).ready(function() {
-var result = 1;
-
-    $(".dark").click(function() {
-        if (result == 1) {
-                $(this).addClass("active");
-                result = 2;
-        } else {
-                $(this).removeClass("active");
-                result = 1;
+$(document).ready( function() {
+    $("td").click(function(e) {
+        if (e.target.classList.contains("active")) {
+            $(this).removeClass("active");
+        } 
+        else {
+            $(this).addClass("active");
         }
     });
-    $(".light").click(function() {
-        if (result == 1) {
-                $(this).addClass("active");
-                result = 2;
-        } else {
-                $(this).removeClass("active");
-                result = 1;
-        }
-    });
-}); 
+});
