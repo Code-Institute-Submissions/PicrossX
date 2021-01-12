@@ -3,7 +3,7 @@
 h1 {
     color:#ffc107;
     font-family: "Press Start 2P", cursive, sans-serif;
-    font-size: 60px;
+    font-size: 2em;
     font-weight: 900;
 }
 
@@ -20,7 +20,6 @@ body {
 .wrapper {
     padding-right: 10px;
     padding-left: 10px;
-    min-width: min-content;
     margin-bottom: 215px;
     margin-top: 215px;
     height: 100%;
