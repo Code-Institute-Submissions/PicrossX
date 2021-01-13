@@ -22,12 +22,13 @@ function areDarkSquaresCorrect() {
 
 function userWon() {
     if (areDarkSquaresCorrect() && areLightSquaresEmpty()) {
-        
-        alert("You won!");
+        setTimeout(function(){
+             alert("You Won!"); 
+        }, 200);
     }
 }
 
-$(document).ready( function() {
+$(document).ready(function() {
     $("td").click(function(e) {
         if (e.target.classList.contains("active")) {
             $(this).removeClass("active");
