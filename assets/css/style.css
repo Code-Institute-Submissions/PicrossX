@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-h1 {
+h1,
+h2,
+h3 {
     color:#ffc107;
     font-family: "Press Start 2P", cursive, sans-serif;
-    font-size: 2em;
     font-weight: 900;
 }
 
