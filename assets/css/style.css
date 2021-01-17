@@ -91,6 +91,62 @@ body {
     transform: translate(-50%, -50%);
 }
 
+/*--------------------------------Table*/
+
+table th, td { 
+    font-family: "Press Start 2P", cursive, sans-serif;
+    color:black;
+    border: 2px solid rgb(43, 38, 38);
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    height: 380px;
+    width: 380px;
+    padding-left: 0;
+    padding-right: 0;  
+}
+
+
+.st-table {
+    height: 380px;
+    width: 380px;
+}
+
+.nd-table {
+    height: 380px;
+    width: 380px;
+    font-size: 8px;
+}
+.rd-table {
+    height: 380px;
+    width: 380px;
+    font-size: 5px;
+}
+
+
+th {
+    background-color: #ffc107;
+    color: black;
+}
+
+
+td {
+    background-color: white;
+}
+
+
+.dark {
+    background-color: white;
+}
+
+
+.active {
+    background-color: black;
+}
+
 /*--------------------------------Buttons*/
 
 .btn-intr {
