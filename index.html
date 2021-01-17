@@ -11,6 +11,33 @@
     <title>PicrossX</title>
 </head>
 <body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">THE RULES OF PICROSS</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <ol>
+                        <li class="text-left">Squares are either filled or empty.</li>
+                        <li class="text-left">The numbers before each row or on top of that column indicate exactly the pattern of filled squares in that row or column.</li>
+                        <li class="text-left">For instance, if the number says “4”, that means there are four filled squares in a row in that column, and the rest are empties.</li>
+                        <li class="text-left">If the number says “4 5”, that means there are four filled squares in a row in that column, some number of empty squares, and then five filled squares in a row (and then empties, in any squares are left).</li>
+                        <li class="text-left">“2 1 2 1” means the pattern in that row is two filled squares, some number of empties, 1 filled square, some number of empties, 2 filled squares in a row, some number of empties, and then one filled square (and then empties, if any squares are left).</li>
+                        <li class="text-left">It’s a logic puzzle. Your goal is to figure out the position of filleds and empties in the whole grid. At the end of each level, you’re rewarded with the semi-abstract picture you just uncovered. If you need more detailed explanation, just push Wikipedia button. Enjoy!</li>
+                    </ol>
+                                   
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <a href="https://en.wikipedia.org/wiki/Nonogram#Solution_techniques" target="_blank" class="btn btn-secondary">Wikipedia</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="wrapper">
         <div class="container-fluid text-center">
             <div class="row">
@@ -34,7 +61,7 @@
         <div class="container-fluid text-center">
             <div class="row">
                 <div class="col-12 text-center">
-                    <a href="https://pngtree.com/free-backgrounds">Free background photos from pngtree.com</a>
+                    <a href="https://pngtree.com/free-backgrounds" target="_blank">Free background photos from pngtree.com</a>
                 </div>
             </div>
         </div>
