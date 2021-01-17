@@ -11,9 +11,46 @@
     <title>PicrossX</title>
 </head>
 <body>
-    <a href="levels.html" class="btn btn-bck"> < </a>
+    <a href="levels.html" class="btn btn-bck"> &lt; </a>
+    <div class="youWon">
+        <div class="modal fade" id="win" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog winModal modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="ModalLabel">YOU WON!</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center" id="win-time">00:00:00</p>
+                        <p class="text-center" id="win-score">SCORE: 0</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="youLost">   
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog giveUpModal modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">GAME OVER</h3>
+                        
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center" id="lost-time">00:00:00</p>
+                        <p class="text-center" id="lost-score">SCORE: 0</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="wrapper">
-        <div class="container-fluid text-center">
+        <div class="container-fluid text-center center">
             <div class="row">
                 <div class="col-12">
                     <h1>PicrossX</h1>
@@ -21,22 +58,25 @@
             </div>  
             <div class="row">
                 <div class="col-12"> 
-                    <table class="center">
+                    <table class="st-table centered">
                         <tr>
-                            <th></th>
-                            <th class="st-r">0</th>
-                            <th class="st-r">2</th>
-                            <th class="st-r">1<br>1<br>1</th>
-                            <th class="st-r">5<br>2</th>
-                            <th class="st-r">9</th>
-                            <th class="st-r">9</th>
-                            <th class="st-r">5<br>2</th>
-                            <th class="st-r">1<br>1<br>1</th>
-                            <th class="st-r">2</th>
-                            <th class="st-r">0</th>
+                            <th>
+                                <div id="timer">00:00:00</div>
+                                <div id="scores">Score: 0</div>
+                            </th>
+                            <th>0</th>
+                            <th>2</th>
+                            <th>1<br>1<br>1</th>
+                            <th>5<br>2</th>
+                            <th>9</th>
+                            <th>9</th>
+                            <th>5<br>2</th>
+                            <th>1<br>1<br>1</th>
+                            <th>2</th>
+                            <th>0</th>
                         </tr>
                         <tr>
-                            <th class="nd-r">0</th>
+                            <th>0</th>
                             <td class="light"></td>
                             <td class="light"></td>
                             <td class="light"></td>
@@ -45,24 +85,24 @@
                             <td class="light"></td>
                             <td class="light"></td>
                             <td class="light"></td>
-                            <td class="light"></td>
-                            <td class="light"></td>
-                        </tr>
-                        <tr>
-                            <th  class="nd-r">6</th>
-                            <td class="light"></td>
-                            <td class="light"></td>
-                            <td class="dark"></td>
-                            <td class="dark"></td>
-                            <td class="dark"></td>
-                            <td class="dark"></td>
-                            <td class="dark"></td>
-                            <td class="dark"></td>
                             <td class="light"></td>
                             <td class="light"></td>
                         </tr>
                         <tr>
-                            <th class="nd-r">1 4 1</th>
+                            <th>6</th>
+                            <td class="light"></td>
+                            <td class="light"></td>
+                            <td class="dark"></td>
+                            <td class="dark"></td>
+                            <td class="dark"></td>
+                            <td class="dark"></td>
+                            <td class="dark"></td>
+                            <td class="dark"></td>
+                            <td class="light"></td>
+                            <td class="light"></td>
+                        </tr>
+                        <tr>
+                            <th>1 4 1</th>
                             <td class="light"></td>
                             <td class="dark"></td>
                             <td class="light"></td>
@@ -75,7 +115,7 @@
                             <td class="light"></td> 
                         </tr>
                         <tr>
-                            <th class="nd-r">1 4 1</th>
+                            <th>1 4 1</th>
                             <td class="light"></td>
                             <td class="dark"></td>
                             <td class="light"></td>
@@ -88,7 +128,7 @@
                             <td class="light"></td>
                         </tr>
                         <tr>
-                            <th class="nd-r">6</th>
+                            <th>6</th>
                             <td class="light"></td>
                             <td class="light"></td>
                             <td class="dark"></td>
@@ -101,7 +141,7 @@
                             <td class="light"></td>
                         </tr>
                         <tr>
-                            <th class="nd-r">4</th>
+                            <th>4</th>
                             <td class="light"></td>
                             <td class="light"></td>
                             <td class="light"></td>
@@ -114,7 +154,7 @@
                             <td class="light"></td>
                         </tr>
                         <tr>
-                            <th  class="nd-r">2</th>
+                            <th>2</th>
                             <td class="light"></td>
                             <td class="light"></td>
                             <td class="light"></td>
@@ -127,7 +167,7 @@
                             <td class="light"></td>
                         </tr>
                         <tr>
-                            <th class="nd-r">2</th>
+                            <th>2</th>
                             <td class="light"></td>
                             <td class="light"></td>
                             <td class="light"></td>
@@ -153,7 +193,7 @@
                             <td class="light"></td>
                         </tr>
                         <tr>
-                            <th class="nd-r">6</th>
+                            <th>6</th>
                             <td class="light"></td>
                             <td class="light"></td>
                             <td class="dark"></td>
