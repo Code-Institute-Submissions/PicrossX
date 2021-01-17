@@ -15,6 +15,66 @@ body {
 	-o-background-size: cover;
     background-size: cover;
 }
+/*--------------------------------Modals*/
+
+.modal-title {
+    margin: 0 auto;
+}
+
+.giveUpModal .modal-content {
+    background-color: #30bbe5;
+    font-family: "Press Start 2P", cursive, sans-serif;
+}
+
+.giveUpModal p {
+    color:#000000;
+    font-weight: 900;
+}
+
+.giveUpModal h3 {
+    color: red;
+}
+
+.giveUpModal .modal-header, .modal-footer {
+    border-bottom: 0;
+    border-top: 0;
+}
+
+.giveUpModal button {
+    margin: 0 auto;
+    font-family: "Press Start 2P", cursive, sans-serif;
+    color: #ff0000;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.winModal .modal-content {
+    background-color: #68e5bd;
+    font-family: "Press Start 2P", cursive, sans-serif;
+}
+
+.winModal p {
+    color:#0008ff;
+    font-weight: 900;
+}
+
+.winModal h3 {
+    color: #ff00b1;
+}
+
+.winModal .modal-header, .modal-footer {
+    border-bottom: 0;
+    border-top: 0;
+}
+
+.winModal button {
+    margin: 0 auto;
+    font-family: "Press Start 2P", cursive, sans-serif;
+    color: black;
+    background-color: #ff00b1;
+    border-color: #ff00b1;
+}
+
 /*--------------------------------Wrapper*/
 
 .wrapper {
