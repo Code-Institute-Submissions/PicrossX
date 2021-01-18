@@ -9,6 +9,7 @@ function areLightSquaresEmpty(){
     }
 }
 
+
 function areDarkSquaresCorrect() {
     let activatedDarkSquaresLength = document.getElementsByClassName("dark active").length;
     let allDarkSquaresLength = document.getElementsByClassName("dark").length;
@@ -19,6 +20,7 @@ function areDarkSquaresCorrect() {
         return true;
     }
 }
+
 
 function userWon() {
     if (areDarkSquaresCorrect() && areLightSquaresEmpty()) {
@@ -31,6 +33,7 @@ function userWon() {
     }
 }
 
+
 $(document).ready(function() {
     $("td").click(function(e) {
         if (e.target.classList.contains("active")) {
@@ -42,6 +45,7 @@ $(document).ready(function() {
         userWon();
     });
 });
+
 
 var timerVar = setInterval(countTimer, 1000);
 var totalSeconds = 0;
@@ -61,14 +65,16 @@ function countTimer() {
         document.getElementById("win-time").innerHTML = hour + ":" + minute + ":" + seconds;
     if (userWon())
         myStopFunction();
-    if($("#give-up").click(function() {
+    if ($("#give-up").click(function() {
         myStopFunction();
     }));     
 }
 
+
 function myStopFunction() {
     clearInterval(timerVar);       
 }
+
 
 $(document).ready(function() {
     var score = 0;
