@@ -115,11 +115,14 @@ table {
     width: 380px;
 }
 
+
 .nd-table {
     height: 380px;
     width: 380px;
     font-size: 8px;
 }
+
+
 .rd-table {
     height: 380px;
     width: 380px;
@@ -162,7 +165,7 @@ td {
 .btn-intr:hover,
 .btn-intr:active,
 .btn-intr:focus,
-btn-intr:active:focus {
+.btn-intr:active:focus {
 	background-color: #b58a09;
 	border-color: #b58a09;
 	color: white;
@@ -177,49 +180,6 @@ btn-intr:active:focus {
     margin-top: 10px;
 }
 
-/*--------------------------------Table*/
-
-table th, td {
-    font-family: "Press Start 2P", cursive, sans-serif;
-    font-size: 13px;
-    color:black;
-    border: 2px solid rgb(43, 38, 38);
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-} 
-
-th {
-    background-color: #ffc107;
-    color: black;
-}
-
-td {
-    background-color: white;
-    width: 29px;
-    height: 29px;
-
-}
-
-.nd-r {
-    width: 90px;
-
-}
-
-.st-r {
-    height: 90px;
-}
-
-.dark {
-    background-color: white;
-}
-
-.active {
-    background-color: black;
-}
-
 /*--------------------------------Footer*/
 
 footer {
@@ -231,3 +191,45 @@ footer {
 footer a {
     color: #26cee8;
 }
+
+/*--------------------------------Media*/
+
+@media (max-width: 575.98px) { 
+    table {
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+
+    .st-table {
+        min-height: 280px;
+        min-width: 280px;
+        font-size: 8px;
+
+    }
+
+
+    h3 {
+        font-size: 22px;
+    }
+
+
+    .nd-table {
+        font-size: 6px;
+        min-height: 290px;
+        min-width: 290px;
+    }
+
+    
+    .rd-table {
+        font-size: 4px;
+        min-height: 290px;
+        min-width: 290px;
+    }
+
+    
+    footer {
+        font-size: 5px;
+    }
+}
+
