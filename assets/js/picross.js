@@ -22,8 +22,11 @@ function areDarkSquaresCorrect() {
 
 function userWon() {
     if (areDarkSquaresCorrect() && areLightSquaresEmpty()) {
-        setTimeout(function(){
-             alert("You Won!"); 
+        myStopFunction();
+        setTimeout(function() {
+            $(document).ready(function(){
+                $("#win").modal("show");
+        });
         }, 200);
     }
 }
