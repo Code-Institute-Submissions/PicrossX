@@ -65,3 +65,7 @@ function countTimer() {
         myStopFunction();
     }));     
 }
+
+function myStopFunction() {
+    clearInterval(timerVar);       
+}
