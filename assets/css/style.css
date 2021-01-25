@@ -65,11 +65,6 @@ body {
     color: #ff00b1;
 }
 
-.winModal .modal-header, .modal-footer {
-    border-bottom: 0;
-    border-top: 0;
-}
-
 .winModal button {
     margin: 0 auto;
     font-family: "Press Start 2P", cursive, sans-serif;
