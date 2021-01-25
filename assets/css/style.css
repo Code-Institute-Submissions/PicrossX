@@ -214,6 +214,24 @@ td {
 	color: white;
 }
 
+.btn-leader {
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    color: black;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    margin-top: 30px;
+    max-width: 130px;
+}
+
+.btn-leader:hover,
+.btn-leader:active,
+.btn-leader:focus,
+.btn-leader:active:focus {
+	background-color: #b58a09;
+	border-color: #b58a09;
+	color: white;
+}
+
 .btn-bck {
     font-family: 'Press Start 2P', cursive, sans-serif;
     color: black;
