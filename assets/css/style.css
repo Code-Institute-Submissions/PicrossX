@@ -265,19 +265,15 @@ footer a {
         max-width: 300px;
     }
 
+    h3 {
+        font-size: 22px;
+    }
 
     .st-table {
         min-height: 280px;
         min-width: 280px;
         font-size: 8px;
-
     }
-
-
-    h3 {
-        font-size: 22px;
-    }
-
 
     .nd-table {
         font-size: 6px;
@@ -285,16 +281,18 @@ footer a {
         min-width: 290px;
     }
 
-    
     .rd-table {
         font-size: 4px;
         min-height: 290px;
         min-width: 290px;
     }
 
-    
     footer {
-        font-size: 5px;
+        margin-top: 10px;
+    }
+
+    .reset-giveup {
+        max-width: 125px;
     }
 }
 
