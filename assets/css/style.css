@@ -296,3 +296,11 @@ footer a {
     }
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .rd-table {
+        font-size: 7px;
+        min-height: 380px;
+        min-width: 380px;
+    }
+}
+
