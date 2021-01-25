@@ -195,6 +195,25 @@ td {
 	color: white;
 }
 
+.reset-giveup {
+
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    color: black;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    margin-top: 30px;
+    width: 116px;
+}
+
+.reset-giveup:hover,
+.reset-giveup:active,
+.reset-giveup:focus,
+.reset-giveup:active:focus {
+	background-color: #b58a09;
+	border-color: #b58a09;
+	color: white;
+}
+
 .btn-bck {
     font-family: 'Press Start 2P', cursive, sans-serif;
     color: black;
