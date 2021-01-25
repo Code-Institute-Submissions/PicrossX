@@ -38,7 +38,7 @@ body {
     color: red;
 }
 
-.giveUpModal .modal-header, .modal-footer {
+.modal-header, .modal-footer {
     border-bottom: 0;
     border-top: 0;
 }
