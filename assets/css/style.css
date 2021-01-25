@@ -178,6 +178,23 @@ td {
 	color: white;
 }
 
+.btn-close {
+    margin: 0 auto;
+    font-family: "Press Start 2P", cursive, sans-serif;
+    color: #ff0000;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.btn-close:hover,
+.btn-close:active,
+.btn-close:focus,
+.btn-close:active:focus {
+	background-color: #3f2424;
+	border-color: #3f2424;
+	color: white;
+}
+
 .btn-bck {
     font-family: 'Press Start 2P', cursive, sans-serif;
     color: black;
