@@ -248,13 +248,13 @@ td {
 /*--------------------------------Footer*/
 
 footer {
-
-   font-family: 'Press Start 2P', cursive, sans-serif;
-
-   
+    margin-top: 30px;
+    font-family: 'Press Start 2P', cursive, sans-serif;
 }
+
 footer a {
     color: #26cee8;
+    font-size: 8px;
 }
 
 /*--------------------------------Media*/
