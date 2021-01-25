@@ -16,8 +16,11 @@ body {
     background-size: cover;
 }
 /*--------------------------------Modals*/
+.input-field {
+    margin-bottom: 20px;
+}
 
-.modal-title {
+.modalTitle {
     margin: 0 auto;
 }
 
