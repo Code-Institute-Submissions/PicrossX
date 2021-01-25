@@ -232,6 +232,10 @@ td {
 	color: white;
 }
 
+.trophy {
+    font-size: 20px;
+}
+
 .btn-bck {
     font-family: 'Press Start 2P', cursive, sans-serif;
     color: black;
