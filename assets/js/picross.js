@@ -107,4 +107,7 @@ $(document).ready(function() {
         document.getElementById("lost-score").innerHTML = "Score:" + score;
         document.getElementById("win-score").innerHTML = "Score:" + score;
     });
+    // if player pushes give-up button timer stops
+    $("#give-up").click(function () {
+        clearTimer();
 });
