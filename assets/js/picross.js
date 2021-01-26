@@ -94,7 +94,12 @@ function clearTimer() {
 
 $(document).ready(function() {
     $(".dark").click(function(e) {
-        score +=1;
+        if (e.target.classList.contains("active")) {
+            score -= 1;
+        }
+        else {
+            score += 1;
+        }
         document.getElementById("scores").innerHTML = "Score:" + score;
         document.getElementById("lost-score").innerHTML = "Score:" + score;
         document.getElementById("win-score").innerHTML = "Score:" + score;
