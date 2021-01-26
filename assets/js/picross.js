@@ -90,16 +90,19 @@ Stops timer when function called
 function clearTimer() {
     clearInterval(timerVar);       
 }
-
-
+/*
+function counts player's score
+*/
 $(document).ready(function() {
     $(".dark").click(function(e) {
+        // If the user unselects a correct active td, then decrement the score, otherwise increment
         if (e.target.classList.contains("active")) {
             score -= 1;
         }
         else {
             score += 1;
         }
+        // scores values set which shows up in html files
         document.getElementById("scores").innerHTML = "Score:" + score;
         document.getElementById("lost-score").innerHTML = "Score:" + score;
         document.getElementById("win-score").innerHTML = "Score:" + score;
