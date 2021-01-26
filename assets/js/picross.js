@@ -93,7 +93,6 @@ function clearTimer() {
 
 
 $(document).ready(function() {
-    var score = 0;
     $(".dark").click(function(e) {
         score +=1;
         document.getElementById("scores").innerHTML = "Score:" + score;
