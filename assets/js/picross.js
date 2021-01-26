@@ -59,9 +59,10 @@ $(document).ready(function() {
         userWon();
     });
 });
-
-
-
+/*
+Function counts time for player
+*/
+//Function's base from stackOverflow: more in README.md
 function countTimer() {
     ++totalSeconds;
     var hour = Math.floor(totalSeconds /3600);
