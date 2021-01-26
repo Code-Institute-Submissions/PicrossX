@@ -82,8 +82,11 @@ function countTimer() {
     document.getElementById("lost-time").innerHTML = timerValue;
     document.getElementById("win-time").innerHTML = timerValue;
 }
-
-
+// variable timerVar holds timer value
+var timerVar = setInterval(countTimer, 1000);
+/*
+Stops timer when function called
+*/
 function clearTimer() {
     clearInterval(timerVar);       
 }
