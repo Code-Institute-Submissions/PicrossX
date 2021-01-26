@@ -33,12 +33,12 @@ function areDarkSquaresCorrect() {
 
 function checkUserWinningStatus() {
     if (areDarkSquaresCorrect() && areLightSquaresEmpty()) {
-        myStopFunction();
+        clearTimer();
         setTimeout(function() {
             $(document).ready(function(){
                 $("#win").modal("show");
         });
-        }, 200);
+        }, modalDelay);
     }
 }
 
