@@ -141,3 +141,13 @@ $("#hs-board").click(function () {
     const demo = document.getElementById("demo");
     const highScore = JSON.parse(localStorage.getItem("userInformation")) || [];
     demo.innerHTML = highScore
+
+        // function returns each player's saved score, time and name in table rows
+        .map(function (info) {
+            return `<tr>
+                    <th>${info.name}</th>
+                    <td>${info.score}</td>
+                    <td>${info.time}</td>
+                </tr>`;
+        });
+});
