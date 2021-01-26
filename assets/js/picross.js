@@ -132,3 +132,12 @@ $("#saveResult").click(function (e) {
     // Converts result to a string, then they can be saved in local storage
     localStorage.setItem("userInformation", JSON.stringify(userInformation));
 });
+/*
+When leaderboard button pushed, function returns modal with players highests scores in table rows
+*/
+$("#hs-board").click(function () {
+    // demo variable will display table containing player's name, score and time in leaderboard modal
+    // highScore variable takes data from local storage and converts to an object
+    const demo = document.getElementById("demo");
+    const highScore = JSON.parse(localStorage.getItem("userInformation")) || [];
+    demo.innerHTML = highScore
