@@ -109,3 +109,5 @@ $(document).ready(function() {
         checkUserWinningStatus();
     });
 });
+// userInformation variable converts data from a string to an object. Empty array to avoid null.
+const userInformation = JSON.parse(localStorage.getItem("userInformation")) || [];
