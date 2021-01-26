@@ -84,7 +84,7 @@ function countTimer() {
 }
 
 
-function myStopFunction() {
+function clearTimer() {
     clearInterval(timerVar);       
 }
 
