@@ -111,3 +111,24 @@ $(document).ready(function() {
 });
 // userInformation variable converts data from a string to an object. Empty array to avoid null.
 const userInformation = JSON.parse(localStorage.getItem("userInformation")) || [];
+/*
+Function converts data to a string and saves to local storage
+*/
+$("#saveResult").click(function (e) {
+
+    const info = {
+        name: "",
+        score: "",
+        time: ""
+
+    };
+
+    info.name = document.getElementById("userName").value;
+    info.score = document.getElementById("win-score").innerHTML;
+    info.time = document.getElementById("win-time").innerHTML;
+
+    // info values pushed to userInformation variable
+    userInformation.push(info);
+    // Converts result to a string, then they can be saved in local storage
+    localStorage.setItem("userInformation", JSON.stringify(userInformation));
+});
