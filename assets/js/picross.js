@@ -46,19 +46,6 @@ function checkUserWinningStatus() {
         }, modalDelay);
     }
 }
-
-
-$(document).ready(function() {
-    $("td").click(function(e) {
-        if (e.target.classList.contains("active")) {
-            $(this).removeClass("active");
-        } 
-        else {
-            $(this).addClass("active");
-        }
-        userWon();
-    });
-});
 /*
 Function counts time for player
 */
@@ -110,4 +97,15 @@ $(document).ready(function() {
     // if player pushes give-up button timer stops
     $("#give-up").click(function () {
         clearTimer();
+    });
+    // class "active" added to or removed from squares
+    $("td").click(function (e) {
+        if (e.target.classList.contains("active")) {
+            $(this).removeClass("active");
+        } else {
+            $(this).addClass("active");
+        }
+        // class added or removed, checks player's winning status
+        checkUserWinningStatus();
+    });
 });
