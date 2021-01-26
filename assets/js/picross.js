@@ -31,7 +31,7 @@ function areDarkSquaresCorrect() {
 }
 
 
-function userWon() {
+function checkUserWinningStatus() {
     if (areDarkSquaresCorrect() && areLightSquaresEmpty()) {
         myStopFunction();
         setTimeout(function() {
