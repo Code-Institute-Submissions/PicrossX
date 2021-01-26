@@ -61,8 +61,7 @@ $(document).ready(function() {
 });
 
 
-var timerVar = setInterval(countTimer, 1000);
-var totalSeconds = 0;
+
 function countTimer() {
     ++totalSeconds;
     var hour = Math.floor(totalSeconds /3600);
@@ -74,14 +73,13 @@ function countTimer() {
         minute = "0"+minute;
     if(seconds < 10)
         seconds = "0"+seconds;
-        document.getElementById("timer").innerHTML = hour + ":" + minute + ":" + seconds;
-        document.getElementById("lost-time").innerHTML = hour + ":" + minute + ":" + seconds;
-        document.getElementById("win-time").innerHTML = hour + ":" + minute + ":" + seconds;
-    if (userWon())
-        myStopFunction();
-    if ($("#give-up").click(function() {
-        myStopFunction();
-    }));     
+
+    //timerValue added to fit all variables
+    let timerValue = `${hour}:${minute}:${seconds}`;
+
+    document.getElementById("timer").innerHTML = timerValue;
+    document.getElementById("lost-time").innerHTML = timerValue;
+    document.getElementById("win-time").innerHTML = timerValue;
 }
 
 
