@@ -1,3 +1,9 @@
+// totalSeconds holds value for timer
+// modalDelay hold value, when winner modal should apear
+// scorre holds value for score counter
+var totalSeconds = 0;
+const modalDelay = 200;
+var score = 0;
 
 function areLightSquaresEmpty(){
     let lightSquaresLength = document.getElementsByClassName("light active").length;
