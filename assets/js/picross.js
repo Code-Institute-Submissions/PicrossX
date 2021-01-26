@@ -29,15 +29,20 @@ function areDarkSquaresCorrect() {
         return true;
     }
 }
-
-
+/*
+Checks if all squares are correct, if so, stops timer, shows winners modal
+*/
 function checkUserWinningStatus() {
     if (areDarkSquaresCorrect() && areLightSquaresEmpty()) {
+        // User pushed the correct squares, clear timer and show the winning score modal
         clearTimer();
+        // A delay is added, so that last dark square would be filled, 
+        //otherwise modal shows up, and last right square not filled
+        //only after modal closed
         setTimeout(function() {
             $(document).ready(function(){
                 $("#win").modal("show");
-        });
+            });
         }, modalDelay);
     }
 }
