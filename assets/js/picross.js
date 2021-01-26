@@ -4,7 +4,9 @@
 var totalSeconds = 0;
 const modalDelay = 200;
 var score = 0;
-
+/*
+Checks if all light squares are empty and returns true if so
+*/
 function areLightSquaresEmpty(){
     let lightSquaresLength = document.getElementsByClassName("light active").length;
     if (lightSquaresLength === 0) {
@@ -14,8 +16,9 @@ function areLightSquaresEmpty(){
         return false;
     }
 }
-
-
+/*
+Checks if all dark squares holds active class and returns true or false
+*/
 function areDarkSquaresCorrect() {
     let activatedDarkSquaresLength = document.getElementsByClassName("dark active").length;
     let allDarkSquaresLength = document.getElementsByClassName("dark").length;
