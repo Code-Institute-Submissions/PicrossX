@@ -77,4 +77,6 @@ Home page contains game header, play button which links to the levels page. Also
 
 ![Image of index.html page](assets/images/index.html-page.png)
 
+Second page contains back button which links player to the home page, also contains header, and buttons with levels. They link to other pages with tables 10x10, 15x15 or 20x20. Second page has a footer with link to the webpage where background image taken from.
 
+![Image of levels.html page](assets/images/levels.html-page.png)
