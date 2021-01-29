@@ -204,3 +204,18 @@ At first I tested game by myself while game was still in progress. When everythi
 
 ### Design responsiveness
 
+Site tested on different device sizes by using Chrome Developer Tools.
+
+|Screen resolutions| Devices                       |
+|:---------------- |:------------------------------|
+|1600x992px        |Desktop                        |
+|1280x802px        |Laptop                         |
+|768x1024px        |Tablet                         |
+|320X568PX         |iPhone 5/SE                    |
+|375x667px         |iPhone 6,7,8                   |
+|414x736px         |iPhone 6,7,8 Plus              |
+|375x812px         |iPhone X                       |
+|360x640px         |Galaxy S5                      |
+|1024x1366px       |iPad Pro                       |
+|384x640px         |Nexus 4                        |
+|1080x2244px       |Huawei Mate 20X(5G)            |
