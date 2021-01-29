@@ -129,3 +129,6 @@ When player wins, win modal shows up. Which asks for name, and shows score and t
 * JSHint validator to check JAVASCRIPT syntax
 * Chrome developer tools for testing the page through the development
 * Microsoft Paint used to create collages from wireframes and screenshots
+
+
+## TESTING
