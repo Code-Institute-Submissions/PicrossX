@@ -54,3 +54,7 @@ Colors which were used set to match 80s theme of the game. 80s known as colorful
 
 Font "Press Start 2P" picked exactly to remind 1980s arcade games. "Sans Serif" font added as backup font.
 
+### Backgroud
+
+Background image chosen theme is 80s Retro Sci-Fi. To match idea of the game, at the same time not being overwhelming, but colorful.
+
