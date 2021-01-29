@@ -132,3 +132,15 @@ When player wins, win modal shows up. Which asks for name, and shows score and t
 
 
 ## TESTING
+
+Details of testing during development.
+
+| Test                | Stage                                            | Tool                                          |
+|---------------------|:-------------------------------------------------|:----------------------------------------------|
+|Syntax errors        |While developing and after completion             |W3C HTML validator, CSS validator, JSHint      |
+|Debugging            |During the project                                |Chrome developer tools                         |
+|Reponsive design     |During the project                                |Chrome developer tools                         |
+|User game testing    |Since JavaScript code was written                 |Manual                                         |
+|Browser compatibility|When project completed                            |Manual testing on different browsers           |                    
+|Button testing       |While developing and after completion             |Manual                                         |
+|Links testing        |While developing and after completion             |Manual                                         |
