@@ -70,3 +70,11 @@ Buttons has high contrast from background image, to get atention, and to enterta
 
 
 ## FEATURES
+
+### Existing features
+
+Home page contains game header, play button which links to the levels page. Also main page has RULES button, which opens modal with simple rules. Modal has a button with link to the Wikipedia(Nanogram) page. Main page has a leaderboard modal with player's highscores. Page footer contains link to the web where from background image taken from.
+
+![Image of index.html page](assets/images/index.html-page.png)
+
+
