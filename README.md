@@ -201,3 +201,6 @@ Chrome Developer Tools were used during development in:
 ### Testing game
 
 At first I tested game by myself while game was still in progress. When everything was almost done, I share link to with family. Most of the bugs found by myself.
+
+### Design responsiveness
+
