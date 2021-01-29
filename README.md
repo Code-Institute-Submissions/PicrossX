@@ -144,3 +144,25 @@ Details of testing during development.
 |Browser compatibility|When project completed                            |Manual testing on different browsers           |                    
 |Button testing       |While developing and after completion             |Manual                                         |
 |Links testing        |While developing and after completion             |Manual                                         |
+
+### UX testing
+
+User goals accomplished by:
+
+1. Goal: **play a game to improve my logic thinking.**<br>
+Nonograms used to increase brain activity, helps get better at solving puzzles. While player has to think constantly this game increase sharpness, logical and quick thinking.
+As well trains long term memory, analytical thinking and [spatial cognition](https://en.wikipedia.org/wiki/Spatial_cognition).
+
+2. Goal: **be able to navigate through the game with no difficulty.**<br>
+Design is user friendly. If player selects "PLAY" it link to the levels page, where player can select level difficulty, when player selects difficulty in links to the game. Buttons text has clear meanings.
+
+3. Goal: **be provided with different difficulty levels.**<br>
+Game provides tree different dificulty puzzles. Which can be played by kids and adults. At the momment there is just 3 puzzles, in the future that will be improved.
+
+4. Goal: **have feedback on how well I am playing so as I can track my progress.**<br>
+In each puzzle, on top in the left corner there is a timer and score counter, which show to players their progress. If player gives up, modal shows up with final score and time. If user wins, modal shows up with high score. After winning user can insert name and his high score will be stored, and other users will be aable to see that high score with user's name next to it.
+
+5. Goal: **play puzzle game and have a good experience.**<br>
+This achieved by using colors and fun design. Design makes game fun and more visually appealing.<br>
+
+Goals tested by getting feedback from family members, friends who played game. Comments were made about futher improvements, and what they would like to see in this game. All that is mentioned in **Features in the future** section.
