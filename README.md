@@ -80,3 +80,15 @@ Home page contains game header, play button which links to the levels page. Also
 Second page contains back button which links player to the home page, also contains header, and buttons with levels. They link to other pages with tables 10x10, 15x15 or 20x20. Second page has a footer with link to the webpage where background image taken from.
 
 ![Image of levels.html page](assets/images/levels.html-page.png)
+
+Puzzle pages contains back button, game table, restart, leaderboard and give up buttons with modals.
+Back button links you to levels page.
+Game table contains timer which count players time.
+Game table also has score counter, to count player's score.
+Table contains numbers on top and on the left. By using these numbers, player has to push the right sqares and by doing that uncover semi-abstract picture.
+
+![Image of 10x10.html page](assets/images/10x10.html-page.png)
+![Image of 15x15.html page](assets/images/15x15.html-page.png)
+![Image of 20x20.html page](assets/images/20x20.html-page.png)
+
+
