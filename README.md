@@ -91,4 +91,4 @@ Table contains numbers on top and on the left. By using these numbers, player ha
 ![Image of 15x15.html page](assets/images/15x15.html-page.png)
 ![Image of 20x20.html page](assets/images/20x20.html-page.png)
 
-
+Restart button simply restarts game (reloads) current page.<br>
