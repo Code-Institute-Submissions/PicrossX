@@ -189,3 +189,13 @@ Errors fixed, final results bellow:
 JSHint results (warnings):
 
 ![JSHint validator](assets/images/javascript-warnings.png)
+
+### Chrome DevTools
+
+Chrome Developer Tools were used during development in:
+* Layout 
+* Looking for errors
+* Fixing bugs
+* Getting correct output (with console)  
+
+
