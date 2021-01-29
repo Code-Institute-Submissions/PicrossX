@@ -284,3 +284,17 @@ To deploy project on GitHub pages, steps were used:
 
 4. When completed, active link published for repository.
 
+To run code locally, steps need to be taken:
+
+1. On GitHub, o to the main page of repository.
+2. Click Code and copy URL.
+
+![github copy](assets/images/github-copy.png)
+
+3. Open your local **IDE**
+4. Open your terminal (in local IDE)
+5. Change current **working directory** to the localtion where you want the cloned directory to be.
+6. Type **git clone** paste copied **URL** ,press **Enter** to create local clone.
+
+If you need more information about cloning, check GitHub Help [page](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
