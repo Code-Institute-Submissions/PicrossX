@@ -219,3 +219,6 @@ Site tested on different device sizes by using Chrome Developer Tools.
 |1024x1366px       |iPad Pro                       |
 |384x640px         |Nexus 4                        |
 |1080x2244px       |Huawei Mate 20X(5G)            |
+
+Final testing using [link](http://ami.responsivedesign.is/)<br>
+Screenshot on top of README file
