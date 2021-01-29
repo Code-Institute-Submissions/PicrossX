@@ -222,3 +222,7 @@ Site tested on different device sizes by using Chrome Developer Tools.
 
 Final testing using [link](http://ami.responsivedesign.is/)<br>
 Screenshot on top of README file
+
+### Browsers
+
+Website tested on Google Chrome, Microsoft Edge, Opera, Safari and Firefox browsers.
