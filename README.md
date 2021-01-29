@@ -63,3 +63,7 @@ Background image chosen theme is 80s Retro Sci-Fi. To match idea of the game, at
 Buttons has high contrast from background image, to get atention, and to entertain by being colorful.
 
 
+## WIREFRAMES AND SCREENSHOTS
+* [Wireframes: desktop, tablet, mobile](assets/images/wireframes/picrossX-wireframe.png)
+* [Screenshots: desktop, tablet, mobile](assets/images/screenshots)
+* [Screenshots: solutions](assets/images/solutions.png)
