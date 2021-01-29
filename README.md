@@ -49,3 +49,8 @@ By visiting this site as a user I want:
 ### Colors
 
 Colors which were used set to match 80s theme of the game. 80s known as colorful time. High contrast in web - yellow, black, blue, pink, red color chosen to create retro atmoshere.
+
+### Fonts
+
+Font "Press Start 2P" picked exactly to remind 1980s arcade games. "Sans Serif" font added as backup font.
+
