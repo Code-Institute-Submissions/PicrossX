@@ -175,3 +175,10 @@ Code syntax were checked with validators:
 * [CSS validator JIGSAW](https://jigsaw.w3.org/css-validator/)
 * [JSHint validator](https://jshint.com/)
 
+Errors fixed, final results bellow:
+
+| Test                           | Expected result                | Results            |                                 
+|:-------------------------------|:-------------------------------|:-------------------|
+|W3C validator HTML              |No errors or warnings           |Pass                |
+|CSS validator JIGSAW            |No errors or warnings           |Warnings appear     |                            
+|JSHint validator                |No errors or warnings           |Warnings appear     |
