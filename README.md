@@ -29,7 +29,7 @@
 
 ## INTRODUCTION
 
-![Responsive image for game](assets/images/responsive.png)
+![Responsive image for game](assets/images/README-images/responsive.png)
 [Live game](https://ernestamajute.github.io/PicrossX/)<br>
 [Repository](https://github.com/ErnestaMajute/PicrossX)
 
