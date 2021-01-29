@@ -166,3 +166,12 @@ In each puzzle, on top in the left corner there is a timer and score counter, wh
 This achieved by using colors and fun design. Design makes game fun and more visually appealing.<br>
 
 Goals tested by getting feedback from family members, friends who played game. Comments were made about futher improvements, and what they would like to see in this game. All that is mentioned in **Features in the future** section.
+
+### Validators
+
+Code syntax were checked with validators:
+
+* [W3C validator HTML](https://validator.w3.org/)
+* [CSS validator JIGSAW](https://jigsaw.w3.org/css-validator/)
+* [JSHint validator](https://jshint.com/)
+
