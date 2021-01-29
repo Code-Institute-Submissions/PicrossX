@@ -228,3 +228,41 @@ Screenshot on top of README file
 Website tested on Google Chrome, Microsoft Edge, Opera, Safari and Firefox browsers.
 
 ### Button and link testing
+
+Results:
+
+|Page            | Action made                           |Expected response                                         | Result  |                                 
+|:---------------|----------------------------------------|:--------------------------------------------------------|:--------|
+|index.html      |Click "Play" button                     |levels.html page shows up                                |Pass     |
+|index.html      |Click "Rules" button                    |Rules modal shows up                                     |Pass     |                           
+|index.html      |Rules modal (click "Close" button)      |Rules modal disappears                                   |Pass     |
+|index.html      |Rules modal (click "Wikipedia" button)  |Opens Wikipedia Nonogram link, in new tab                |Pass     |
+|index.html      |Click "Trophy icon" button              |Leaderboard with saved players highscores shows up       |Pass     |
+|index.html      |Leaderboard modal (click "Close" button)|Leaderboard modal closes                                 |Pass     |
+|index.html      |Click footer link                       |Opens website with images, in separate tab               |Pass     | 
+|levels.html     |Click "<" button                        |Opens index.html page                                    |Pass     |                    
+|levels.html     |Click "10x10" button                    |Opens 10x10.html page with puzzle                        |Pass     |  
+|levels.html     |Click "15x15" button                    |Opens 15x15.html page with puzzle                        |Pass     |       
+|levels.html     |Click "20x20" button                    |Opens 20x20.html page with puzzle                        |Pass     |  
+|levels.html     |Click footer link                       |Opens website with images, in separate tab               |Pass     | 
+|10x10.html      |Click "<" button                        |Opens levels.html page                                   |Pass     |
+|10x10.html      |Click "Reset" button                    |Opens 10x10.html page                                    |Pass     |
+|10x10.html      |Click "Trophy icon" button              |Leaderboard with saved players highscores shows up       |Pass     |                           
+|10x10.html      |Click "Give up" button                  |Give up modal shows up                                   |Pass     |
+|10x10.html      |Give up modal (click "Close" button)    |Give up modal disappears                                 |Pass     |
+|10x10.html      |Click footer link                       |Opens website with images, in separate tab               |Pass     | 
+|15x15.html      |Click "<" button                        |Opens levels.html page                                   |Pass     |
+|15x15.html      |Click "Reset" button                    |Opens 15x15.html page                                    |Pass     |
+|15x15.html      |Click "Trophy icon" button              |Leaderboard with saved players highscores shows up       |Pass     |                           
+|15x15.html      |Click "Give up" button                  |Give up modal shows up                                   |Pass     |
+|15x15.html      |Give up modal (click "Close" button)    |Give up modal disappears                                 |Pass     |
+|15x15.html      |Click footer link                       |Opens website with images, in separate tab               |Pass     | 
+|20x20.html      |Click "<" button                        |Opens levels.html page                                   |Pass     |
+|20x20.html      |Click "Reset" button                    |Opens 20x20.html page                                    |Pass     |
+|20x20.html      |Click "Trophy icon" button              |Leaderboard with saved players highscores shows up       |Pass     |                           
+|20x20.html      |Click "Give up" button                  |Give up modal shows up                                   |Pass     |
+|20x20.html      |Give up modal (click "Close" button)    |Give up modal disappears                                 |Pass     |
+|20x20.html      |Click footer link                       |Opens website with images, in separate tab               |Pass     | 
+|All puzzles html|Win modal (Click "Save" button)         |Saves name, score and time in local storage              |Pass     |
+|All puzzles html|Win modal (Click "Close" button)        |Win modal disappears                                     |Pass     |
+
