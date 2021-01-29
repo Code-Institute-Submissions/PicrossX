@@ -183,12 +183,12 @@ Errors fixed, final results bellow:
 |CSS validator JIGSAW            |No errors or warnings           |Warnings appear     |                            
 |JSHint validator                |No errors or warnings           |Warnings appear     |
 
-![html validator](assets/images/html-validator.png)
-![css validator](assets/images/css-validator.png)
+![html validator](assets/images/README-images/html-validator.png)
+![css validator](assets/images/README-images/css-validator.png)
 
 JSHint results (warnings):
 
-![JSHint validator](assets/images/javascript-warnings.png)
+![JSHint validator](assets/images/README-images/javascript-warnings.png)
 
 ### Chrome DevTools
 
