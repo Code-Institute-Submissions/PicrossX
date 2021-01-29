@@ -46,3 +46,6 @@ By visiting this site as a user I want:
 * have feedback on how well I am playing so as I can track my progress.
 * play puzzle game and have a good experience.
 
+### Colors
+
+Colors which were used set to match 80s theme of the game. 80s known as colorful time. High contrast in web - yellow, black, blue, pink, red color chosen to create retro atmoshere.
