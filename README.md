@@ -104,7 +104,7 @@ Give up modal shows player's score and stopped timer.
 
 When player wins, win modal shows up. Which asks for name, and shows score and time. That data goes to the local storage. And shows up in leaderboard modal.
 
-![Image of won modal](assets/images/wonModal.png)
+![Image of won modal](assets/images/README-images/wonModal.png)
 
 ### Features in the future
 
