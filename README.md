@@ -96,3 +96,8 @@ Restart button simply restarts game (reloads) current page.<br>
 Trophy button opens leaderboard modal, which contains players name, score and time.
 
 ![Image of leaderboard modal](assets/images/leaderboardModal.png)
+
+Give up button opens modal.
+Give up modal shows player's score and stopped timer.
+
+![Image of give up modal](assets/images/giveupModal.png)
