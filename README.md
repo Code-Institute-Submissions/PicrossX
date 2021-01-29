@@ -301,4 +301,10 @@ If you need more information about cloning, check GitHub Help [page](https://hel
 
 ## CREDITS
 
+### Content
 
+* [This](https://gerrycanavan.wordpress.com/2005/07/27/the-rules-of-picross/) link is source for rules.
+* [Background image](https://pngtree.com/free-backgrounds)
+* Timer - piece of code in picross.js file (line 50) I got from user "Yusuf" [Link](https://stackoverflow.com/questions/5517597/plain-count-up-timer-in-javascript)
+* Stack Overflow used to get information and to learn while creating this project
+* [Am I responsive?](http://ami.responsivedesign.is/) for screenshot and checking
