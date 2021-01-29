@@ -266,3 +266,5 @@ Results:
 |All puzzles html|Win modal (Click "Save" button)         |Saves name, score and time in local storage              |Pass     |
 |All puzzles html|Win modal (Click "Close" button)        |Win modal disappears                                     |Pass     |
 
+
+## DEPLOYMENT
