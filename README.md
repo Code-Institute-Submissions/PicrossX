@@ -289,7 +289,7 @@ To run code locally, steps need to be taken:
 1. On GitHub, o to the main page of repository.
 2. Click Code and copy URL.
 
-![github copy](assets/images/github-copy.png)
+![github copy](assets/images/README-images/github-copy.png)
 
 3. Open your local **IDE**
 4. Open your terminal (in local IDE)
