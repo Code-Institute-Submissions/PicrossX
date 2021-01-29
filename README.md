@@ -100,7 +100,7 @@ Trophy button opens leaderboard modal, which contains players name, score and ti
 Give up button opens modal.
 Give up modal shows player's score and stopped timer.
 
-![Image of give up modal](assets/images/giveupModal.png)
+![Image of give up modal](assets/images/README-images/giveupModal.png)
 
 When player wins, win modal shows up. Which asks for name, and shows score and time. That data goes to the local storage. And shows up in leaderboard modal.
 
