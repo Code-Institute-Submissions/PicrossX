@@ -67,3 +67,6 @@ Buttons has high contrast from background image, to get atention, and to enterta
 * [Wireframes: desktop, tablet, mobile](assets/images/wireframes/picrossX-wireframe.png)
 * [Screenshots: desktop, tablet, mobile](assets/images/screenshots)
 * [Screenshots: solutions](assets/images/solutions.png)
+
+
+## FEATURES
