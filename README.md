@@ -111,3 +111,21 @@ When player wins, win modal shows up. Which asks for name, and shows score and t
 1. Generate table header's numbers, to have more levels in 10x10, 15x15 and 20x20 puzzles.
 2. Add sound effects, like music and and sound when button or square clicked.
 3. Possibility to login for player, to continue their progress.
+
+
+## TECHNOLOGIES
+
+* HTML5
+* CSS
+* JAVASCRIPT(ES6)
+* Gitpod
+* GitHub
+* Font Awesome for icons
+* Google Fonts
+* jQuery for DOM manipulation
+* Bootstrap4 for page layout and responsive design
+* W3C validator to check HTML syntax
+* CSS jigsaw validator to check CSS syntax
+* JSHint validator to check JAVASCRIPT syntax
+* Chrome developer tools for testing the page through the development
+* Microsoft Paint used to create collages from wireframes and screenshots
