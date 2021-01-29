@@ -312,3 +312,11 @@ If you need more information about cloning, check GitHub Help [page](https://hel
 ### Acknowledgment
 
 * I would like to thank my family for testing this game. Also big thanks to my mentor Reuben Ferrante who helped me a lot during this project.
+
+
+## Commits
+In this section I explain unclear commits:
+* **Useless classes removed** to **Table headers classes removed, has no purpose** - these classes were removed almost in the end of the project, I found other ways to style headers. I decided to remove .st-r and .nd-r classes
+* **Triger button added for modal** to **Button added to open give-up modal, target=_blank added to footer**
+* **Changes** to **Empty line deleted**
+* **h1 to h3** to **.center class added to wrapper section**
