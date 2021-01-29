@@ -226,3 +226,5 @@ Screenshot on top of README file
 ### Browsers
 
 Website tested on Google Chrome, Microsoft Edge, Opera, Safari and Firefox browsers.
+
+### Button and link testing
