@@ -268,3 +268,19 @@ Results:
 
 
 ## DEPLOYMENT
+
+Gitpod used as online integrated development environment then pushed to GitHub for hosting.
+
+To deploy project on GitHub pages, steps were used:
+
+1. Login to GitHub and select PicrossX repository.
+2. Press **Settings** button, on menubar, right side.
+
+![deploy pages](assets/images/README-images/github-deploy.png)
+
+3. Scroll down, at Github pages section select Master branch and click **Save**.
+
+![github pages](assets/images/README-images/github-pages.png)
+
+4. When completed, active link published for repository.
+
