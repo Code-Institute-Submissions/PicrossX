@@ -106,4 +106,8 @@ When player wins, win modal shows up. Which asks for name, and shows score and t
 
 ![Image of won modal](assets/images/wonModal.png)
 
+### Features in the future
 
+1. Generate table header's numbers, to have more levels in 10x10, 15x15 and 20x20 puzzles.
+2. Add sound effects, like music and and sound when button or square clicked.
+3. Possibility to login for player, to continue their progress.
