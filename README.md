@@ -32,3 +32,5 @@
 ![Responsive image for game](assets/images/responsive.png)
 [Live game](https://ernestamajute.github.io/PicrossX/)<br>
 [Repository](https://github.com/ErnestaMajute/PicrossX)
+
+This project is logic puzzle game. This game was created with purpose of brain training and to use logical thinking. Designed to be easy enough for kids and more complex for adults. Game has 3 different dificulty levels to suit all player's - beginers and advanced. 80s RETRO design used to improve user experience. 
