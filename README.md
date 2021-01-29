@@ -79,7 +79,7 @@ Home page contains game header, play button which links to the levels page. Also
 
 Second page contains back button which links player to the home page, also contains header, and buttons with levels. They link to other pages with tables 10x10, 15x15 or 20x20. Second page has a footer with link to the webpage where background image taken from.
 
-![Image of levels.html page](assets/images/levels.html-page.png)
+![Image of levels.html page](assets/images/README-images/levels.html-page.png)
 
 Puzzle pages contains back button, game table, restart, leaderboard and give up buttons with modals.
 Back button links you to levels page.
