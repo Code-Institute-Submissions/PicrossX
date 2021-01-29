@@ -308,3 +308,7 @@ If you need more information about cloning, check GitHub Help [page](https://hel
 * Timer - piece of code in picross.js file (line 50) I got from user "Yusuf" [Link](https://stackoverflow.com/questions/5517597/plain-count-up-timer-in-javascript)
 * Stack Overflow used to get information and to learn while creating this project
 * [Am I responsive?](http://ami.responsivedesign.is/) for screenshot and checking
+
+### Acknowledgment
+
+* I would like to thank my family for testing this game. Also big thanks to my mentor Reuben Ferrante who helped me a lot during this project.
